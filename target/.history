@@ -1,0 +1,12 @@
+compile
+run
+update
+compile
+run
+test
+run
+test
+run
+test
+compile
+test

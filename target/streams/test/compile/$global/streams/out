@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hlunt/repos/external/tagless_final_exploration/src/test/scala/example/programs/BudgetProgramTest.scala:14:10: object creation impossible, since method update in trait BudgetAlg of type (id: example.entities.BudgetId, cost: BigDecimal)cats.Id[example.entities.Budget] is not defined[0m
+[0m[[0m[31merror[0m] [0m[0m  object TestInterpreter extends BudgetAlg[Id] {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hlunt/repos/external/tagless_final_exploration/src/test/scala/example/programs/BudgetProgramTest.scala:34:10: object creation impossible, since method update in trait BudgetAlg of type (id: example.entities.BudgetId, cost: BigDecimal)BudgetProgramTest.this.Log[example.entities.Budget] is not defined[0m
+[0m[[0m[31merror[0m] [0m[0m  object LoggingInterpreter extends BudgetAlg[Log] {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

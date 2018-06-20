@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hlunt/repos/external/tagless_final_exploration/src/main/scala/example/interpreters/BudgetInterpreter.scala:13:7: class BudgetInterpreter needs to be abstract, since method update in trait BudgetAlg of type (id: example.entities.BudgetId, cost: BigDecimal)example.entities.FEither[example.entities.Budget] is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass BudgetInterpreter (implicit ec: ExecutionContext) extends BudgetAlg[FEither] {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
